@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import torch; print\\(f'PyTorch: {torch.__version__}'\\)\")",
+      "Bash(python3 -c \"import numpy; print\\(f'NumPy: {numpy.__version__}'\\)\")",
+      "Bash(python3 -c \"import pandas; print\\(f'Pandas: {pandas.__version__}'\\)\")",
+      "Bash(python3 -c \"import matplotlib; print\\(f'Matplotlib: {matplotlib.__version__}'\\)\")",
+      "Bash(python3 -c \"import seaborn; print\\(f'Seaborn: {seaborn.__version__}'\\)\")",
+      "Bash(sysctl -n hw.perflevel0.physicalcpu)",
+      "Bash(sysctl -n hw.physicalcpu)",
+      "Bash(sysctl -n hw.logicalcpu)",
+      "Bash(sysctl -n hw.memsize)",
+      "Bash(sysctl -n machdep.cpu.brand_string)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
